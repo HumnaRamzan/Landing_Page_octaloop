@@ -52,7 +52,7 @@ const Gallery = () => {
           </div>
 
           {/* Image 4 spans 2 rows */}
-          <div className="relative overflow-hidden aspect-square transform transition-transform hover:scale-105 row-span-2 col-span-1">
+          <div className="relative overflow-hidden aspect-square transform transition-transform hover:scale-105 row-span-2 col-span-1 h-[570px] w-[274px]">
             <img
               src={image4}
               alt="NFT 4"
@@ -79,7 +79,7 @@ const Gallery = () => {
           </div>
 
           {/* Image 7 spans 2 columns */}
-          <div className="relative overflow-hidden aspect-square transform transition-transform hover:scale-105 col-span-2">
+          <div className="relative overflow-hidden aspect-square transform transition-transform hover:scale-105 col-span-2 h-[275px] w-[570px]">
             <img
               src={image7}
               alt="NFT 7"

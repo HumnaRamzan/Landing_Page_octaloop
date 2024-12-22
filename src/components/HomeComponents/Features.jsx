@@ -22,7 +22,7 @@ const Features = () => {
       </div>
       <div className="absolute inset-0 bg-black bg-opacity-50" />
       {/* Features Grid */}
-      <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+      <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6 max-w-7xl mx-auto">
         {featuresComponent}
       </div>
     </section>

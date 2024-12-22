@@ -2,6 +2,7 @@ import React from "react";
 import FAQItem from "./FAQItem";
 import { cn } from "../../utils/lib";
 import faq_person from "../../assets/faq_person.png";
+import smokeEffect from "../../assets/smoke_effect.png";
 const Faq = () => {
   const faqItems = [
     {
@@ -59,8 +60,15 @@ const Faq = () => {
               ))}
             </div>
           </div>
-          <div>
-            <img src={faq_person} className="w-auto h-auto" />
+          <div
+            className="relative bg-cover bg-center bg-repeat"
+            style={{ backgroundImage: `url(${smokeEffect})` }}
+          >
+            <img
+              src={faq_person}
+              className="relative z-10 w-auto h-auto"
+              alt="FAQ Person"
+            />
           </div>
         </div>
       </div>
